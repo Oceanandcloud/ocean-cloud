@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom";
 import "./ProductListSection.css";
 
 
@@ -15,12 +15,14 @@ const ProductListSection = () => {
 Ocean and cloud not only extend an invitation to view but also to create and set your mark as an embodiment who adds beauty and life to obscurity and let's keep doing it like never before.
             </p>
           </div>
+          <Link to="productpage">
           <div class="info-text-cta">
             <span className="orange-text"><h4>Go to our products</h4></span>
             <span class="material-symbols-outlined icon-arrow orange-text">
               arrow_forward
             </span>
           </div>
+            </Link>
         </div>
         <div class="info-photo">
           <img src="./img/info.jpg" />
