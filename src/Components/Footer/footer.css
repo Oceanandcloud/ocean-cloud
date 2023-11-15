@@ -1,0 +1,118 @@
+.footer{
+  width: 88%;
+  height: 30vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.address{
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.address .logo{
+  height: 4rem;
+  width: 9rem;
+  overflow: hidden;
+}
+
+.logo img{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.address p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #B1B1B1;
+}
+
+.madeby{
+  font-size: 0.8rem;
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  color: #B1B1B1;
+  font-weight: 300;
+}
+
+.madeby .developer-name{
+  font-weight: 500;
+}
+
+.footer-links{
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.footer-links a{
+  text-decoration: none;
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #B1B1B1;
+}
+
+.footer-links a:hover{
+  color: #0F172A;
+}
+
+@media screen and (max-width: 904px) {
+  html {
+    font-size: 40%;
+  }
+
+  .footer{
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .madeby{
+    font-size: 2rem;
+  }
+
+  .footer-links{
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+  
+  .footer-links a{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+}
+
+@media only screen and (min-width: 904px) and (max-width: 1040px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media only screen and (min-width: 1040px) and (max-width: 1182px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media only screen and (min-width: 1182px) and (max-width: 1400px) {
+  html {
+    font-size: 85%;
+  }
+}

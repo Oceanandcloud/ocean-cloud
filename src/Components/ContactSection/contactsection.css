@@ -1,0 +1,262 @@
+.contact-container{
+  width: 100vw;
+  height: fit-content;
+}
+
+.contact-section{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+
+}
+
+.addresses{
+  display: flex;
+  align-items: center;
+}
+
+.contact-image{
+  width: 15rem;
+  height: fit-content;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-icons img{
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+}
+
+.social-icons img:hover{
+  background-color: #dddddd;
+  border-radius: 10px;
+}
+
+
+
+.contact-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-image h3{
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #888888;
+}
+
+.contact-details{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.2rem;
+
+}
+
+.contact-details h1{
+color: #000;
+
+font-size: 1rem;
+
+font-weight: 500;
+margin-bottom: 0.5rem;
+margin-top: 1rem;
+
+}
+
+.contact-details .addresses{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+
+}
+
+.contact-details h3{
+  color: #000;
+
+font-size: 1rem;
+
+font-weight: 500;
+
+}
+
+.contact-details p{
+  color: #909090;
+
+font-size: 0.8rem;
+
+font-weight: 300;
+
+}
+
+
+.contact-details .phone{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+
+}
+
+.contact-details .email{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 3.3rem;
+}
+
+@media screen and (max-width: 904px) {
+  html {
+    font-size: 40%;
+  }
+
+  .contact-container{
+    width: 100vw;
+    height: fit-content;
+  }
+  
+  .contact-section{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+  
+  }
+  
+  .contact-image{
+    width: 30rem;
+    height: fit-content;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .contact-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .contact-image h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #888888;
+  }
+  
+
+ 
+  .contact-details{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.2rem;
+  
+  }
+  
+  .contact-details h1{
+  color: #000;
+  
+  font-size: 2rem;
+  
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  
+  }
+  
+  .contact-details .addresses{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+  
+  }
+  
+  .contact-details h3{
+    color: #000;
+  
+  font-size: 2rem;
+  
+  font-weight: 500;
+  
+  }
+  
+  .contact-details p{
+    color: #909090;
+  
+  font-size: 1.5rem;
+  
+  font-weight: 300;
+  
+  }
+  
+  
+  .contact-details .phone{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  
+  }
+  
+  .contact-details .email{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 3.3rem;
+  }
+
+}
+
+
+@media only screen and (min-width: 904px) and (max-width: 1040px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media only screen and (min-width: 1040px) and (max-width: 1182px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media only screen and (min-width: 1182px) and (max-width: 1400px) {
+  html {
+    font-size: 85%;
+  }
+}

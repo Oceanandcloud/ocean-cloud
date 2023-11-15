@@ -1,0 +1,130 @@
+.info{
+  margin-top: 8rem;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 40px 100px;
+  background-color: #F9F8F8;
+}
+
+.info-text{
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.info-text-heading{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.info-text-heading h1{
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.info-text-heading p{
+  color: #5b5b5b;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.info-text-cta{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-text-cta .icon-arrow{
+  transition: all 0.3s ease;
+}
+
+.info-text-cta:hover .icon-arrow{
+  transform: translateX(5px);
+  transition: all 0.3s ease;
+}
+
+
+.info-text-cta h4{
+  font-weight: 400;
+}
+
+.info-photo{
+
+  background: #000;
+  width: 35%;
+  height: 100%;
+}
+
+.info-photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 904px) {
+  html {
+    font-size: 40%;
+  }
+  .info{
+    flex-direction: column;
+    height: fit-content;
+    gap: 1rem;
+  padding: 40px 40px;
+  }
+  
+  .info-text{
+    width: 95%;
+  }
+
+  
+  .info-text-heading h1{
+    font-size: 5rem;
+  }
+  
+  .info-text-heading p{
+    font-size: 2rem;
+  }
+  
+  .info-photo{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .info-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+}
+
+@media only screen and (min-width: 904px) and (max-width: 1040px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media only screen and (min-width: 1040px) and (max-width: 1182px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media only screen and (min-width: 1182px) and (max-width: 1400px) {
+  html {
+    font-size: 85%;
+  }
+}
