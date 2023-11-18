@@ -42,7 +42,7 @@ const ContactSection = () => {
           </div>
           <div class="email">
             <h3>Email</h3>
-            <p>greaterdayo@gmail.com</p>
+            <p>cc@oceanandcloud.store</p>
           </div>
         </div>
       </div>
